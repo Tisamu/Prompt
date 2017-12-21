@@ -1,0 +1,9 @@
+name: prompt
+version: 0.1.0
+
+authors:
+  - Samuel NAIT <nait.samuel@gmmail.com>
+
+crystal: 0.23.1
+
+license: MIT
