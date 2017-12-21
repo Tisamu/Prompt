@@ -54,13 +54,4 @@ module Prompt
       prompt(text, choices, selected)
     end
   end
-
-  prompt_text = "Do your Choice !" # Prepare the Prompt Text
-  choices = [                      # Prepare the choices given to the Prompt
-["choice 1", "value 1"],
-["choice 2", "value 2"],
-["choice 3", "value 3"],
-["choice 4", "value 4"],
-["choice 5", "value 5"],
-  ]
 end

@@ -7,11 +7,20 @@ A simple on-demand Prompt system to get values from User's choice.
 To start using Prompt, simply require it and use it that way:
 
 ```ruby
-Usage exemple
-```
+prompt_text = "Do your Choice !" # Prepare the Prompt Text
 
-Will Output:
-```ruby
+choices = [                      # Prepare the choices given to the Prompt
+["choice 1", "value 1"],
+["choice 2", "value 2"],
+["choice 3", "value 3"],
+["choice 4", "value 4"],
+["choice 5", "value 5"],
+  ]
+
+value1 = prompt(prompt_text, choices) # Get the prompt result
+value2 = prompt(prompt_text, choices) # Get the prompt result
+
+puts "The Prompt returned: #{value1} & #{value2}"
 ```
 
 ## Customisation options
@@ -24,11 +33,7 @@ Prompt.indicator = ... # Set the string used to highlight the current choice.
 
 ## Contributing
 
-I'm not a expert Crystal developper (far from it..), so fell free to tell me how to do better or to make pull requests to change the way I did. :)
+I'm not a expert Crystal developper (far from it..), so feel free to give me some tips. ;)
 
 ## Authors
-* **Samuel NAIT** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Samuel NAIT**
