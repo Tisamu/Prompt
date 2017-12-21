@@ -1,4 +1,4 @@
-# Project Title
+# Prompt, a simple Terminal Prompting for Crystal
 
 A simple on-demand Prompt system to get values from User's choice.
 
